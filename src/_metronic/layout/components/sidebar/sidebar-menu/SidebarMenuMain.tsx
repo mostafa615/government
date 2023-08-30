@@ -102,7 +102,7 @@ const SidebarMenuMain = () => {
       <SidebarMenuItem
         to='/apps/user-management/users'
         icon='abstract-28'
-        title='User management'
+        title='المستخدمين والصلاحيات'
         fontIcon='bi-layers'
       />
       <div className='menu-item'>

@@ -84,8 +84,8 @@ export function MenuInner() {
           <MenuItem to='/apps/chat/private-chat' title='Private Chat' hasBullet={true} />
           <MenuItem to='/apps/chat/group-chat' title='Group Chart' hasBullet={true} />
           <MenuItem to='/apps/chat/drawer-chat' title='Drawer Chart' hasBullet={true} />
-        </MenuInnerWithSub>
-        <MenuItem icon='abstract-28' to='/apps/user-management/users' title='User management' /> */}
+        </MenuInnerWithSub>*/
+        <MenuItem icon='abstract-28' to='/apps/user-management/users' title=' المستخدمين والصلاحيات  ' /> }
       </MenuInnerWithSub>
 
       {/* <MenuInnerWithSub

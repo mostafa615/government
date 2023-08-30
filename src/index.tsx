@@ -15,10 +15,11 @@ import './_metronic/assets/keenicons/solid/style.css'
  *
  * import './_metronic/assets/css/style.rtl.css'
  **/
-//  import './_metronic/assets/sass/style.scss'
-import './_metronic/assets/sass/plugins.scss'
-import './_metronic/assets/sass/style.react.scss'
+  // import './_metronic/assets/sass/style.scss'
+// import './_metronic/assets/sass/plugins.scss'
 import './_metronic/assets/css/style.rtl.css'
+import './_metronic/assets/sass/style.react.scss'
+// import './_metronic/assets/css/style.rtl.css'
 
 import {AppRoutes} from './app/routing/AppRoutes'
 import {AuthProvider, setupAxios} from './app/modules/auth'
