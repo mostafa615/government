@@ -67,11 +67,11 @@ const SidebarMenuMain = () => {
       </SidebarMenuItemWithSub> */}
       <SidebarMenuItem to='/crafted/account/settings' title='الاعدادات' icon='profile-circle'fontIcon='bi-person'/> 
 
-      <SidebarMenuItemWithSub to='/error' title='Errors' fontIcon='bi-sticky' icon='cross-circle'>
+      {/* <SidebarMenuItemWithSub to='/error' title='Errors' fontIcon='bi-sticky' icon='cross-circle'>
         <SidebarMenuItem to='/error/404' title='Error 404' hasBullet={true} />
         <SidebarMenuItem to='/error/500' title='Error 500' hasBullet={true} />
-      </SidebarMenuItemWithSub>
-      <SidebarMenuItemWithSub
+      </SidebarMenuItemWithSub> */}
+      {/* <SidebarMenuItemWithSub
         to='/crafted/widgets'
         title='Widgets'
         icon='element-7'
@@ -83,13 +83,13 @@ const SidebarMenuMain = () => {
         <SidebarMenuItem to='/crafted/widgets/mixed' title='Mixed' hasBullet={true} />
         <SidebarMenuItem to='/crafted/widgets/tables' title='Tables' hasBullet={true} />
         <SidebarMenuItem to='/crafted/widgets/feeds' title='Feeds' hasBullet={true} />
-      </SidebarMenuItemWithSub>
-      <div className='menu-item'>
+      </SidebarMenuItemWithSub> */}
+      {/* <div className='menu-item'>
         <div className='menu-content pt-8 pb-2'>
           <span className='menu-section text-muted text-uppercase fs-8 ls-1'>Apps</span>
         </div>
-      </div>
-      <SidebarMenuItemWithSub
+      </div> */}
+      {/* <SidebarMenuItemWithSub
         to='/apps/chat'
         title='Chat'
         fontIcon='bi-chat-left'
@@ -98,14 +98,14 @@ const SidebarMenuMain = () => {
         <SidebarMenuItem to='/apps/chat/private-chat' title='Private Chat' hasBullet={true} />
         <SidebarMenuItem to='/apps/chat/group-chat' title='Group Chart' hasBullet={true} />
         <SidebarMenuItem to='/apps/chat/drawer-chat' title='Drawer Chart' hasBullet={true} />
-      </SidebarMenuItemWithSub>
+      </SidebarMenuItemWithSub> */}
       <SidebarMenuItem
         to='/apps/user-management/users'
         icon='abstract-28'
         title='المستخدمين والصلاحيات'
         fontIcon='bi-layers'
       />
-      <div className='menu-item'>
+      {/* <div className='menu-item'>
         <a
           target='_blank'
           className='menu-link'
@@ -116,7 +116,7 @@ const SidebarMenuMain = () => {
           </span>
           <span className='menu-title'>Changelog {process.env.REACT_APP_VERSION}</span>
         </a>
-      </div>
+      </div> */}
     </>
   )
 }

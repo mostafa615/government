@@ -25,7 +25,8 @@ const UsersPage = () => {
           path='users'
           element={
             <>
-              <PageTitle breadcrumbs={usersBreadcrumbs}>Users list</PageTitle>
+ 
+              <PageTitle breadcrumbs={usersBreadcrumbs}> المستخدمين  </PageTitle>
               <UsersListWrapper />
             </>
           }
