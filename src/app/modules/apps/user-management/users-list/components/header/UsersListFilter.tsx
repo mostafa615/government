@@ -36,14 +36,14 @@ const UsersListFilter = () => {
         data-kt-menu-placement='bottom-end'
       >
         <KTIcon iconName='filter' className='fs-2' />
-        Filter
+        اختيار بحث
       </button>
       {/* end::Filter Button */}
       {/* begin::SubMenu */}
       <div className='menu menu-sub menu-sub-dropdown w-300px w-md-325px' data-kt-menu='true'>
         {/* begin::Header */}
         <div className='px-7 py-5'>
-          <div className='fs-5 text-dark fw-bolder'>Filter Options</div>
+          <div className='fs-5 text-dark fw-bolder'>   اختار البحث</div>
         </div>
         {/* end::Header */}
 
@@ -55,7 +55,7 @@ const UsersListFilter = () => {
         <div className='px-7 py-5' data-kt-user-table-filter='form'>
           {/* begin::Input group */}
           <div className='mb-10'>
-            <label className='form-label fs-6 fw-bold'>Role:</label>
+            <label className='form-label fs-6 fw-bold'>الصلاحية:</label>
             <select
               className='form-select form-select-solid fw-bolder'
               data-kt-select2='true'
@@ -77,7 +77,7 @@ const UsersListFilter = () => {
           {/* end::Input group */}
 
           {/* begin::Input group */}
-          <div className='mb-10'>
+          {/* <div className='mb-10'>
             <label className='form-label fs-6 fw-bold'>Last login:</label>
             <select
               className='form-select form-select-solid fw-bolder'
@@ -95,7 +95,7 @@ const UsersListFilter = () => {
               <option value='5 hours ago'>5 hours ago</option>
               <option value='2 days ago'>2 days ago</option>
             </select>
-          </div>
+          </div> */}
           {/* end::Input group */}
 
           {/* begin::Actions */}
@@ -108,7 +108,7 @@ const UsersListFilter = () => {
               data-kt-menu-dismiss='true'
               data-kt-user-table-filter='reset'
             >
-              Reset
+           مسح البحث
             </button>
             <button
               disabled={isLoading}
@@ -118,7 +118,7 @@ const UsersListFilter = () => {
               data-kt-menu-dismiss='true'
               data-kt-user-table-filter='filter'
             >
-              Apply
+              تطبيق
             </button>
           </div>
           {/* end::Actions */}
